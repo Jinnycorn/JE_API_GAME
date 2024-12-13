@@ -153,6 +153,32 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
     case WM_DESTROY:
         PostQuitMessage(0);
         break;
+
+    case WM_MOVE:
+    {
+        SetWindowText(hWnd, L"WM_MOVE");
+    }
+    break;
+    case WM_SIZE:
+    {
+        SetWindowText(hWnd, L"WM_SIZE");
+    }
+    break;
+    case WM_LBUTTONDOWN:
+    {
+        SetWindowText(hWnd, L"WM_LBUTTONDOWN");
+    }
+    break;
+    case WM_RBUTTONDOWN:
+    {
+        SetWindowText(hWnd, L"WM_RBUTTONDOWN");
+    }
+    break;
+    case WM_MOUSEWHEEL:
+    {
+        SetWindowText(hWnd, L"WM_MOUSEWHEEL");
+    }
+    break;
     default:
         return DefWindowProc(hWnd, message, wParam, lParam);
     }
