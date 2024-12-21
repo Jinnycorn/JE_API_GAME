@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.35229.62
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JE_API_GAME", "JE_API_GAME\JE_API_GAME.vcxproj", "{20AF7E18-0FE0-4AE5-831F-A8D9218E7044}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JE_API_GAME_Window", "JE_API_GAME_Window\JE_API_GAME_Window.vcxproj", "{75504B78-2DEE-4C10-9BC9-050FB89EFE9D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JE_API_Game_SOURCE", "JE_API_Game_SOURCE\JE_API_Game_SOURCE.vcxitems", "{7909668B-887F-4102-8722-0BD3A21AA14B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{20AF7E18-0FE0-4AE5-831F-A8D9218E7044}.Release|x64.Build.0 = Release|x64
 		{20AF7E18-0FE0-4AE5-831F-A8D9218E7044}.Release|x86.ActiveCfg = Release|Win32
 		{20AF7E18-0FE0-4AE5-831F-A8D9218E7044}.Release|x86.Build.0 = Release|Win32
+		{75504B78-2DEE-4C10-9BC9-050FB89EFE9D}.Debug|x64.ActiveCfg = Debug|x64
+		{75504B78-2DEE-4C10-9BC9-050FB89EFE9D}.Debug|x64.Build.0 = Debug|x64
+		{75504B78-2DEE-4C10-9BC9-050FB89EFE9D}.Debug|x86.ActiveCfg = Debug|Win32
+		{75504B78-2DEE-4C10-9BC9-050FB89EFE9D}.Debug|x86.Build.0 = Debug|Win32
+		{75504B78-2DEE-4C10-9BC9-050FB89EFE9D}.Release|x64.ActiveCfg = Release|x64
+		{75504B78-2DEE-4C10-9BC9-050FB89EFE9D}.Release|x64.Build.0 = Release|x64
+		{75504B78-2DEE-4C10-9BC9-050FB89EFE9D}.Release|x86.ActiveCfg = Release|Win32
+		{75504B78-2DEE-4C10-9BC9-050FB89EFE9D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
